@@ -15,6 +15,7 @@
 		7072E3B51E5C25740043DD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7072E3B31E5C25740043DD2B /* LaunchScreen.storyboard */; };
 		7072E3C01E5C25740043DD2B /* IrregularViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7072E3BF1E5C25740043DD2B /* IrregularViewDemoTests.m */; };
 		7072E3CB1E5C25740043DD2B /* IrregularViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7072E3CA1E5C25740043DD2B /* IrregularViewDemoUITests.m */; };
+		7072E3DA1E5C265B0043DD2B /* IrregularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7072E3D91E5C265B0043DD2B /* IrregularView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7072E3C61E5C25740043DD2B /* IrregularViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7072E3CA1E5C25740043DD2B /* IrregularViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularViewDemoUITests.m; sourceTree = "<group>"; };
 		7072E3CC1E5C25740043DD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7072E3D81E5C265B0043DD2B /* IrregularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrregularView.h; sourceTree = "<group>"; };
+		7072E3D91E5C265B0043DD2B /* IrregularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrregularView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7072E3A91E5C25740043DD2B /* AppDelegate.m */,
 				7072E3AB1E5C25740043DD2B /* ViewController.h */,
 				7072E3AC1E5C25740043DD2B /* ViewController.m */,
+				7072E3D81E5C265B0043DD2B /* IrregularView.h */,
+				7072E3D91E5C265B0043DD2B /* IrregularView.m */,
 				7072E3AE1E5C25740043DD2B /* Main.storyboard */,
 				7072E3B11E5C25740043DD2B /* Assets.xcassets */,
 				7072E3B31E5C25740043DD2B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				7072E3AD1E5C25740043DD2B /* ViewController.m in Sources */,
 				7072E3AA1E5C25740043DD2B /* AppDelegate.m in Sources */,
+				7072E3DA1E5C265B0043DD2B /* IrregularView.m in Sources */,
 				7072E3A71E5C25740043DD2B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
